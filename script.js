@@ -7,4 +7,3 @@ function showSection(sectionId) {
 
     document.getElementById(sectionId).classList.add('active');
 }
-
