@@ -107,3 +107,36 @@ ul li {
     font-size: 1.1rem;
 }
 
+/* Skills section */
+.skills {
+    margin-top: 40px;
+}
+
+.skills h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.skills-grid {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skills-grid span {
+    padding: 10px 18px;
+    border-radius: 12px;
+    background: rgba(30, 41, 59, 0.9);
+    border: 1px solid #334155;
+    color: #e5e7eb;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(56, 189, 248, 0.2);
+    transition: all 0.3s ease;
+}
+
+.skills-grid span:hover {
+    background: #38bdf8;
+    color: #020617;
+    transform: translateY(-3px);
+}
